@@ -2,9 +2,19 @@
 public class loops {
 	public static void main(String[] args) {
 		
-		for(int i=0; i < 5; i++) {
-            System.out.printf("The value of i is: %d\n ", i);
-            
+		int value = 20;
+				
+		while(value > 10) 
+		{
+			System.out.println("You are beautiful " + value);
+			
+			value = value - 5;
+			
 		}
+		
+		
+		
+		
 	}
+
 }
